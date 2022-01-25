@@ -13,7 +13,7 @@ The code is available in Word2Vec_Test2_update notebook. Futher the code is avai
 In this application, we have checked with the phrase more than one words. For example the input phrase is "poor story. not fascinating ". The phrase clearly depicts the negative sentiment. All the words in the phrase are not exressing the sentiment, therfore we have extracted the keywords. In this regard, we have used BERT. We have used Word2Vec to have the embeddings of the keywords. We have extracted the closely related words of the key words based on the cosine similarity. Using BERT the key words in the phrase are:
 
 
-fascinating, story,  poor.
+fascinating, story,  poor. Here the phrase itself is the negative sentiment, the keyword 'poor' represents negative sentiment. 
 
 So the closest words of the keywords are:
 
@@ -25,6 +25,8 @@ story:  ['story', 'begin', 'jessica', 'show', 'mcdermott', 'cameo', 'film', 'com
 
 
 poor:  ['poor', 'sander', 'horroryearbook', 'merk', 'travolta', 'none', 'anar', 'text', 'sidney', 'selby', 'virgin', 'locoformovies', 'armstrong', 'blanc', 'screenplay', 'html', 'nelson', 'culp', 'fjkdfa', 'gould']
+
+
 
 
 # Packages Need to be Installed
